@@ -15,6 +15,7 @@ public class Main {
 
 		System.out.println(amari);
 
+		
 		num += 5;
 		num++;
 		System.out.println(num);
@@ -22,10 +23,18 @@ public class Main {
 		/*double d = 3;
 		int n = (int)3.0;
 		String s = "ベスト" + 3;*/
+		
 
 		int kokugo = 70;
 		int sansu = 75;
 
 		System.out.println((kokugo + sansu) / 2.0);
+		
+		
+		
+		int num1 = 3;
+		int num2 = 5;
+		System.out.println("足し算の結果は" + (3+5) + "です");
+		
 	}
 }
