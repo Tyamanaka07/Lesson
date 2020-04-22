@@ -34,7 +34,7 @@ public class Main {
 		
 		int num1 = 3;
 		int num2 = 5;
-		System.out.println("足し算の結果は" + (3+5) + "です");
+		System.out.println("足し算の結果は" + (num1 + num2) + "です");
 		
 	}
 }
