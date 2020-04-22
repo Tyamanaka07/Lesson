@@ -26,6 +26,6 @@ public class Main {
 		int kokugo = 70;
 		int sansu = 75;
 
-		System.out.println((double)(kokugo + sansu) / 2);
+		System.out.println(((double)kokugo + sansu) / 2);
 	}
 }
