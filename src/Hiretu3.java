@@ -17,8 +17,8 @@ public class Hiretu3 {
 //			sum += num;
 //		}
 //		System.out.println(sum);
-		
-		
+
+
 		//3番
 //		int[] nums = {8, 5, 9, 2, 4};
 //		int count = 0;
@@ -28,26 +28,26 @@ public class Hiretu3 {
 //			}
 //		}
 //		System.out.println(count);
-		
-		
+
+
 //		//4番
 //		int[] nums = {8, 5, 9, 2, 4};
-//		for(int num : nums) {
-//			num *= 2;
-//			System.out.print(num + ",");
+//		for(int i=0; i<nums.length; i++) {
+//			nums[i] *= 2;
+//			System.out.print(nums[i] + ",");
 //		}
-		
+
 		//5番
 		int[] nums = {8, 5, 9, 2, 4};
 		int max = 0;
-		for(int i=0; i<nums.length; i++) {
-			nums[i] = nums[i] * 2;
-			if(nums[i] > max) {
-				max = nums[i];
+		for(int num : nums) {
+			num *= 2;
+			if(num > max) {
+				max = num;
 			}
 		}
 		System.out.println(max);
-		
+
 	}
 
 }
