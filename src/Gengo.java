@@ -18,11 +18,11 @@ public class Gengo {
 	public static int getSeireki(int gengou, int nen){
 		switch(gengou){
 			case 1:
-				return 1926 + nen;
+				return 1926 + nen - 1;
 			case 2:
-				return 1989 + nen;
+				return 1989 + nen  - 1;
 			case 3:
-				return 2019 + nen;
+				return 2019 + nen- - 1;
 			default:
 				System.out.println("正しい元号を入力してください");
 				return 0;
