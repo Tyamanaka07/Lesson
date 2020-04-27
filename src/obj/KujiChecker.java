@@ -14,6 +14,7 @@ public class KujiChecker {
 		}
 		else {
 			k.result = "はずれ";
+			this.kingaku = 0;
 		}
 
 	}

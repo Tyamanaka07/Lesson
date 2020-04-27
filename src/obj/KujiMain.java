@@ -14,12 +14,17 @@ public class KujiMain {
 		kuji3.number = 967412;
 
 		kujicheck.check(kuji1);
-		kujicheck.check(kuji2);
-		kujicheck.check(kuji3);
-
 		kuji1.show();
+		System.out.println("金額は" + kujicheck.kingaku + "円");
+
+		kujicheck.check(kuji2);
 		kuji2.show();
+		System.out.println("金額は" + kujicheck.kingaku + "円");
+
+		kujicheck.check(kuji3);
 		kuji3.show();
+		System.out.println("金額は" + kujicheck.kingaku + "円");
+
 
 
 
