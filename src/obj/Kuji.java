@@ -6,6 +6,8 @@ public class Kuji {
 
 	public void show() {
 		System.out.println(this.number + ", " + this.result);
-
+	}
+	public Kuji(int num) {
+		this.number = num;
 	}
 }
