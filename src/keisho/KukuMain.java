@@ -6,11 +6,9 @@ public class KukuMain {
 	public static void main(String[] args) {
 
 		ArrayList<KukuMondai> nArray = new ArrayList<KukuMondai>();
-		nArray.add(new KukuMondai());
-		nArray.add(new KukuMondai());
-		nArray.add(new KukuMondai());
-		nArray.add(new KukuMondai());
-		nArray.add(new KukuMondai());
+		for(int j=0; j<5; j++) {
+			nArray.add(new KukuMondai());
+		}
 
 		for(KukuMondai n : nArray) {
 
