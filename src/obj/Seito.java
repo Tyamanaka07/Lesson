@@ -6,10 +6,17 @@ public class Seito {
 	int sansu;
 	int shakai;
 
+	public Seito(String name, int kokugo, int sansu, int shakai) {
+		this.name = name;
+		this.kokugo = kokugo;
+		this.sansu = sansu;
+		this.shakai = shakai;
+	}
+
 
 	public void show() {
-		System.out.println(this.name + "\n国語" + this.kokugo
-				+ "点 算数" + this.sansu + "点 社会" + this.shakai +"点");
+		System.out.print(this.name + "\n国語" + this.kokugo
+				+ "点 算数" + this.sansu + "点 社会" + this.shakai + "点");
 	}
 	public int goukei() {
 		return this.kokugo + this.sansu + this.shakai;
