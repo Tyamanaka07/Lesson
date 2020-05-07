@@ -4,8 +4,6 @@ public class Book extends Item{
 
 	public Book(String name, int days) {
 		super(name,days);
-		this.name = name;
-		this.days = days;
 	}
 
 	@Override

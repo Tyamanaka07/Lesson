@@ -9,7 +9,7 @@ public class RentalMain {
 		item.add(new Book("ワンピース",7));
 		item.add(new CD("パプリカ",3));
 		item.add(new CD("Lemon",1));
-		
+
 		int sum = 0;
 
 		for(Item i : item) {
