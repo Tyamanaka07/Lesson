@@ -1,6 +1,7 @@
 package DB;
 
 import java.sql.Connection;
+import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -26,8 +27,9 @@ public class UriageDAO {
 				int uid = rs.getInt("uid");
 				int sid= rs.getInt("sid");
 				int kosu = rs.getInt("kosu");
+				Date hi = rs.getDate("hi");
 
-				Uriage u = new Uriage(uid, sid, kosu);
+				Uriage u = new Uriage(uid, sid, kosu, hi);
 				list.add(u);
 			}
 
@@ -53,8 +55,9 @@ public class UriageDAO {
 			if(rs.next()) {
 				int sid = rs.getInt("sid");
 				int kosu = rs.getInt("kosu");
+				Date hi = rs.getDate("hi");
 
-				u = new Uriage(uid, sid, kosu);
+				u = new Uriage(uid, sid, kosu, null);
 			}
 
 			stmt.close();
