@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 public class Hiretu3 {
 
 	public static void main(String[] args) {
@@ -37,16 +37,25 @@ public class Hiretu3 {
 //			System.out.print(nums[i] + ",");
 //		}
 
-		//5番
+//		//5番
+//		int[] nums = {8, 5, 9, 2, 4};
+//		int max = 0;
+//		for(int num : nums) {
+//			num *= 2;
+//			if(num > max) {
+//				max = num;
+//			}
+//		}
+//		System.out.println(max);
+
+
+
 		int[] nums = {8, 5, 9, 2, 4};
-		int max = 0;
-		for(int num : nums) {
-			num *= 2;
-			if(num > max) {
-				max = num;
-			}
+		Arrays.fill(nums, 9);
+		for(int h : nums) {
+			System.out.println(h);
 		}
-		System.out.println(max);
+
 
 	}
 

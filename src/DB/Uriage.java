@@ -8,6 +8,10 @@ public class Uriage {
 	private int kosu;
 	private Date hi;
 
+	public Uriage() {
+
+	}
+
 	public Uriage(int uid, int sid, int kosu, Date hi) {
 		this.uid = uid;
 		this.sid = sid;

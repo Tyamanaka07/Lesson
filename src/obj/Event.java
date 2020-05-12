@@ -24,7 +24,7 @@ public class Event {
 
 		System.out.println(this.name + "\n" + s);
 		for(Sankasha list : sanka) {
-		System.out.println(list.getName() + list.getAge() + "歳");
+			System.out.println(list.getName() + list.getAge() + "歳");
 		}
 	}
 }

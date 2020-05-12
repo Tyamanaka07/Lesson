@@ -9,9 +9,12 @@ public class Gengo {
 
 		int s = getSeireki(gengou, nen);
 		String g = getGengouName(gengou);
+		if(s == 0 || g == "") {
+			System.out.println("正しい元号を入力してください");
+		}
+		else {
 		System.out.println( g + nen + "年は西暦" + s + "年です");
-
-
+		}
 
 	}
 
@@ -24,7 +27,6 @@ public class Gengo {
 			case 3:
 				return 2019 + nen- - 1;
 			default:
-				System.out.println("正しい元号を入力してください");
 				return 0;
 		}
 	}
@@ -38,7 +40,6 @@ public class Gengo {
 		case 3:
 			return "令和";
 		default:
-			System.out.println("正しい元号を入力してください");
 			return 0 + "";
 		}
 	}
